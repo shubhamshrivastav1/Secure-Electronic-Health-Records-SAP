@@ -53,7 +53,10 @@ function LandingPage() {
           <div className="flex flex-col text-custom-blue space-y-8 w-2/5 p-8 bg-gray-800 shadow-lg ml-4 rounded-lg transition-transform duration-10000 ease-in-out transform hover:scale-105">
             <div className="space-y-4">
               <p className="text-lg font-mono">
-                The Secure Electronic Health Records App is revolutionizing EHR management by leveraging blockchain technology. Utilizing key components such as blockchain for secure and transparent data storage, Ganache for rapid development, Metamask for seamless blockchain interaction, and IPFS desktop for decentralized file storage, It ensures enhanced security, improved accessibility, data interoperability, and trust. By adopting this innovative approach, It aims to transform healthcare data management, leading to better patient outcomes and improved healthcare delivery.
+                HealthLedger: A Patient-Controlled Blockchain EHR System
+                HealthLedger is a blockchain-based EHR solution that gives patients full control over their health records. Using Polygon, IPFS, and smart contracts, it ensures secure, transparent, and patient-owned data access.
+
+                Built with React.js, Web3.js, Node.js, and MongoDB, it creates a scalable, interoperable system that reduces costs, eliminates data silos, and enables emergency access. Designed for India, HealthLedger delivers low-cost, transparent, and patient-first healthcare data management.
               </p>
             </div>
           </div>

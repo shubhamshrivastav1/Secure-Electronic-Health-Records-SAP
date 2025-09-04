@@ -44,7 +44,7 @@ const PatientLogin = () => {
           <h2 className="text-3xl sm:text-4xl font-bold mb-6">Patient Login</h2>
           <div className="mb-4">
             <label className="block font-bold text-white" htmlFor="hhNumber">
-              HH Number
+              HH Number (6 digit pin)
             </label>
             <input
               id="hhNumber"
@@ -54,7 +54,7 @@ const PatientLogin = () => {
               className={`mt-2 p-2 w-full text-white bg-gray-700 border border-gray-600 rounded-md hover:bg-gray-800 transition duration-200 ${
                 hhNumberError ? "border-red-500" : ""
               }`}
-              placeholder="HH Number"
+              placeholder="HH Number (6 digit pin)"
               value={hhNumber}
               onChange={handlehhNumberChange}
             />

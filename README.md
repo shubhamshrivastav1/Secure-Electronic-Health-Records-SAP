@@ -1,5 +1,6 @@
-Summary : The "Secure Electronic Health Records" project utilizes Ethereum blockchain, Metamask, and Ganache to enable patients to securely upload medical data and also view his data, manage doctor access, and view data history. Doctors can manage patient lists, access records, generate consultancy reports, and revoke access given by patient. Diagnostic centers can create EHR reports, ensuring visibility for both patients and doctors through IPFS integration. This decentralized approach enhances data security, interoperability, and patient control over health information, ultimately improving healthcare delivery and patient outcomes.
+Summary : HealthLedger is a blockchain-based solution that puts patients in control of their Electronic Health Records (EHR). Built on Polygon for transparent storage, IPFS for distributed file management, and smart contracts for automated permissions, it ensures security, integrity, and complete ownership of health data. Patients decide who can access their records, with every action securely recorded on the blockchain.
 
+The system integrates React.js + Web3.js for user-friendly access, Node.js + Express for backend, and MongoDB for metadata management, creating a scalable and interoperable ecosystem. By eliminating data silos, reducing costs, enabling emergency access, and ensuring transparency, HealthLedger transforms healthcare delivery. Designed for India’s needs, it provides low-cost, patient-first, and future-ready healthcare data management.
 Technology Used :
 
 Blockchain Technology: Ethereum<br>

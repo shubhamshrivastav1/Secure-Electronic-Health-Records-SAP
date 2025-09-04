@@ -65,7 +65,7 @@ const ViewDoctorProfile = () => {
                   Email-Id : <span className="font-bold text-yellow-500">{doctorDetails[5]}</span>
                 </p>
                 <p className="text-xl sm:text-2xl mb-2">
-                  HH Number : <span className="font-bold text-yellow-500">{hhNumber}</span>
+                  HH Number (6 digit pin) : <span className="font-bold text-yellow-500">{hhNumber}</span>
                 </p>
               </center>
             </div>

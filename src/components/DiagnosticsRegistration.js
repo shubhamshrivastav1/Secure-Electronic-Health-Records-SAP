@@ -154,7 +154,7 @@ const DiagnosticRegistry = () => {
               {emailError && <p className="text-red-500 text-sm mt-1">{emailError}</p>}
             </div>
             <div className="mb-4">
-              <label className="block font-bold text-white" htmlFor="hhNumber">HH Number</label>
+              <label className="block font-bold text-white" htmlFor="hhNumber">HH Number (6 digit pin)</label>
               <input
                 id="hhNumber"
                 name="hhNumber"

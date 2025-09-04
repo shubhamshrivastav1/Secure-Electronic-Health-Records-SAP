@@ -145,12 +145,12 @@ const DoctorRegistry = () => {
 
             {/* HH Number */}
             <div>
-              <label className="block text-gray-300 mb-1">HH Number</label>
+              <label className="block text-gray-300 mb-1">HH Number (6 digit pin)</label>
               <input
                 type="text"
                 value={hhNumber}
                 onChange={(e) => sethhNumber(e.target.value)}
-                placeholder="Enter HH Number"
+                placeholder="Enter HH Number (6 digit pin)"
                 className="w-full p-3 rounded bg-gray-700 text-white placeholder-gray-400 focus:ring-2 focus:ring-teal-500"
               />
               {errors.hhNumber && <p className="text-red-500 text-sm">{errors.hhNumber}</p>}

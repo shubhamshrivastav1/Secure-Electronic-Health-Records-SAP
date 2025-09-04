@@ -224,7 +224,7 @@ const PatientRegistry = () => {
 
             <div className="mb-4">
               <label className="block font-bold text-white" htmlFor="hhNumber">
-                HH Number
+                HH Number (6 digit pin)
               </label>
               <input
                 id="hhNumber"
